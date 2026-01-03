@@ -1,5 +1,9 @@
 package com.example.jobtracker.repository;
 
-public class JobtrackerAppRepository {
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.example.jobtracker.entity.JobtrackerApp;
+
+public interface JobtrackerAppRepository extends JpaRepository<JobtrackerApp, Long> {
     
 }
